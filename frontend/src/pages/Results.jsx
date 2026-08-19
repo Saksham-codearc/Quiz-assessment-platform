@@ -16,10 +16,10 @@ function Results() {
         const [assessmentResponse, attemptsResponse] =
           await Promise.all([
             fetch(
-              `http://https://quizchain-backend-y6nz.onrender.com/api/assessments/${id}`
+              `https://quizchain-backend-y6nz.onrender.com/api/assessments/${id}`
             ),
             fetch(
-              `http://https://quizchain-backend-y6nz.onrender.com/api/assessments/${id}/attempts`,
+              `https://quizchain-backend-y6nz.onrender.com/api/assessments/${id}/attempts`,
              {
               headers: {
               Authorization: `Bearer ${localStorage.getItem('quizchain_token')}`,

@@ -133,7 +133,7 @@ function QuestionBuilder() {
     console.log('Saved assessment:', savedAssessment)
     console.log('Backend ID:', savedAssessment.backendId)
     const response = await fetch(
-   `http://https://quizchain-backend-y6nz.onrender.com/api/assessments/${savedAssessment.backendId}`,
+   `https://quizchain-backend-y6nz.onrender.com/api/assessments/${savedAssessment.backendId}`,
   {
     method: 'PUT',
     headers: {

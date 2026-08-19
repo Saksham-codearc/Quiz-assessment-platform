@@ -20,7 +20,7 @@ function Login() {
 
     try {
       const response = await fetch(
-        'http://https://quizchain-backend-y6nz.onrender.com/api/login',
+        'https://quizchain-backend-y6nz.onrender.com/api/login',
         {
           method: 'POST',
           headers: {

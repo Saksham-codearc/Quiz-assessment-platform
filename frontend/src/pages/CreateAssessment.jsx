@@ -46,7 +46,7 @@ function CreateAssessment() {
     }
 
     const response = await fetch(
-      'http://https://quizchain-backend-y6nz.onrender.com/api/assessments',
+      'https://quizchain-backend-y6nz.onrender.com/api/assessments',
       {
         method: 'POST',
         headers: {

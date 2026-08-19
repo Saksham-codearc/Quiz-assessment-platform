@@ -30,7 +30,7 @@ function TakeAssessment() {
     const fetchAssessment = async () => {
       try {
         const response = await fetch(
-          `http://https://quizchain-backend-y6nz.onrender.com/api/assessments/${id}`
+          `https://quizchain-backend-y6nz.onrender.com/api/assessments/${id}`
         )
 
         if (!response.ok) {
@@ -154,7 +154,7 @@ function TakeAssessment() {
 
 try {
   const response = await fetch(
-    'http://https://quizchain-backend-y6nz.onrender.com/api/attempts',
+    'https://quizchain-backend-y6nz.onrender.com/api/attempts',
     {
       method: 'POST',
       headers: {
