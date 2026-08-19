@@ -268,11 +268,11 @@ uvicorn main:app --reload
 
 Backend will normally run at:
 
-http://127.0.0.1:8000
+http://https://quizchain-backend-y6nz.onrender.com
 
 Swagger API documentation:
 
-http://127.0.0.1:8000/docs
+http://https://quizchain-backend-y6nz.onrender.com/docs
 3. Frontend Setup
 
 Open another terminal and go to:

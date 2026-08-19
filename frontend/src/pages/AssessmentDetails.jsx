@@ -13,7 +13,7 @@ function AssessmentDetails() {
     const fetchAssessment = async () => {
       try {
         const response = await fetch(
-          `http://127.0.0.1:8000/api/assessments/${id}`
+          `http://https://quizchain-backend-y6nz.onrender.com/api/assessments/${id}`
         )
 
         if (!response.ok) {
